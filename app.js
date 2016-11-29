@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-var sites = ["flyer","lpm"];
+var sites = ["lcf","lpm"];
 
 global.config = require('config')[sites[1]];
 
